@@ -1,2 +1,2 @@
 # rsschool-cv
-Educational project
+https://lukkearmageddon.github.io/rsschool-cv/cv
