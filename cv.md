@@ -1,5 +1,5 @@
 ## Aleksey Tokarev
-___
+
 #### Junior Frontend Developer
 ___
 ### Contact Information:
@@ -25,7 +25,7 @@ ___
 - Adobe:
   + PS, AI, AAE, Premiere;
 - Figma;
-___
+
 ### Code example:
 ```javascript
 function add(num1, num2) {
