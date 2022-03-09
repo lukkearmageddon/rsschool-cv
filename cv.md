@@ -1,5 +1,3 @@
-## [rsschool](https://app.rs.school/)
-___
 ## Aleksey Tokarev
 ___
 #### Junior Frontend Developer
@@ -10,6 +8,7 @@ Telegram: [@lukkearmageddon](https://telegram.me/lukkearmageddon)
 LinkedIn: [lukkearmageddon](https://www.linkedin.com/in/lukkearmageddon/)
 
 Email: [lukkemail@gmail.com](email:lukkemail@gmail.com)
+
 ___
 ### Briefly About Myself:
 I worked in the printing industry for about five years. I have technical skills in technical and computer maintenance. Later changed the field to smm, although I was already thinking about programming.
@@ -28,7 +27,7 @@ ___
 - Figma;
 ___
 ### Code example:
-```
+```javascript
 function add(num1, num2) {
   let result = [];
   num1 = num1.toString().split('').reverse()
@@ -42,10 +41,10 @@ function add(num1, num2) {
 ```
 ___
 ### Courses:
-- [Hyperskill (JetBrain)](https://hyperskill.org/profile/43717729);
-- [HTML Academy: HTML и CSS](https://htmlacademy.ru/intensive/htmlcss);
-- [HTML Academy: Adaptive layout and automation](https://htmlacademy.ru/intensive/adaptive);
-- JS on the [learnjavascript](https://learnjavascript.ru);
+- [Hyperskill (JetBrain)](https://hyperskill.org/profile/43717729)
+- [HTML Academy: HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)
+- [HTML Academy: Adaptive layout and automation](https://htmlacademy.ru/intensive/adaptive)
+- JS on the [learnjavascript](https://learnjavascript.ru)
 ___
 ### Languages:
 - Russian: Native;
