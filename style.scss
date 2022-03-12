@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&family=Urbanist:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&family=Urbanist:wght@200;400&display=swap');
+
 .visually-hidden:not(:focus):not(:active),
-input[type=checkox].visually-hidden,
-input[type=radio].visually-hidden {
+input[type="checkox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -16,14 +17,15 @@ input[type=radio].visually-hidden {
 
 .page {
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 200;
-}
-.page-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  &-body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    //background-color: #262626;
+  }
 }
 
 .container {
@@ -44,13 +46,13 @@ input[type=radio].visually-hidden {
   flex: 0 0 auto;
 }
 
-.header__inner {
-  display: flex;
-  justify-content: space-between;
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .avatar {
   margin-top: 15px;
 }
-
-/*# sourceMappingURL=style.css.map */
