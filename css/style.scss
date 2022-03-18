@@ -23,6 +23,7 @@ html {
   height: 100%;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 200;
+
   &-body {
     min-height: 100%;
     display: grid;
@@ -37,29 +38,38 @@ img {
 }
 
 .container {
-  width: 940px;
+  width: 930px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.header {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .main {
   flex: 1 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  & .container {
+    display: flex;
+  }
+}
+
+.container__inner {
+  display: flex;
 }
 
 .footer {
   flex: 0 0 auto;
-}
-
-.header {
-  flex: 0 0 auto;
-  &__inner {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 .avatar {
@@ -68,15 +78,16 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+
   &-jobtitle {
     position: absolute;
-    bottom: -30px;
-    font-size: 14px;
-    line-height: 18px;
+    bottom: -32px;
+    font-size: 18px;
+    line-height: 22px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #f3b900;
-    padding: 10px;
+    padding: 5px 10px;
   }
 }
 
@@ -84,11 +95,14 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #e7e7e7;
+  width: 600px;
+
   &__name {
     font-size: 64px;
     line-height: 60px;
     margin: 50px 40px 10px 40px;
   }
+
   &__jobtitle {
     width: 188px;
     margin: 10px 40px 10px 40px;
@@ -97,11 +111,110 @@ img {
     text-transform: uppercase;
     background-color: #f3b900;
   }
+
   &__title {
     text-transform: uppercase;
     padding: 10px 0 10px 40px;
   }
+
   &__sub {
     padding-left: 40px;
+  }
+}
+
+.section {
+  &-left {
+    width: 300px;
+  }
+
+  &-right {
+    margin: 0;
+    width: 600px;
+  }
+}
+
+.education {
+  padding: 20px 0 35px 35px;
+  color: #fff;
+  background-color: #2c2c2c;
+}
+
+.expertise {
+  padding: 10px 0 20px 35px;
+  background-color: #e7e7e7;
+  &__skill {
+    &-list {
+      padding: 0;
+      margin: 0;
+    }
+
+    &-item {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+
+      &:nth-child(1) .expertise__bar {
+        width: 75%;
+      }
+
+      &:nth-child(2) .expertise__bar {
+        width: 55%;
+      }
+
+      &:nth-child(3) .expertise__bar {
+        width: 35%;
+      }
+
+      &:nth-child(4) .expertise__bar {
+        width: 30%;
+      }
+
+      &:nth-child(5) .expertise__bar {
+        width: 55%;
+      }
+
+      &:nth-child(6) .expertise__bar {
+        width: 20%;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: 12px 0;
+  }
+
+  &__scale {
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 5px;
+    width: 160px;
+    background-color: #2c2c2c;
+  }
+
+  &__bar {
+    width: 60%;
+    height: 5px;
+    background-color: #f3b900;
+  }
+}
+
+.experience {
+  margin-left: 40px;
+  &__work {
+    margin-bottom: 50px;
+  }
+  &__job {
+    &__list {
+    }
+    &__item {
+
+    }
+    &__text {
+
+    }
   }
 }
