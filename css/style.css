@@ -36,29 +36,37 @@ img {
 }
 
 .container {
-  width: 940px;
+  width: 930px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.header {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+}
+.header__inner {
+  display: flex;
+  justify-content: center;
 }
 
 .main {
   flex: 1 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.main .container {
+  display: flex;
+}
+
+.container__inner {
+  display: flex;
 }
 
 .footer {
   flex: 0 0 auto;
-}
-
-.header {
-  flex: 0 0 auto;
-}
-.header__inner {
-  display: flex;
-  justify-content: center;
 }
 
 .avatar {
@@ -70,19 +78,20 @@ img {
 }
 .avatar-jobtitle {
   position: absolute;
-  bottom: -30px;
-  font-size: 14px;
-  line-height: 18px;
+  bottom: -32px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f3b900;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   background-color: #e7e7e7;
+  width: 600px;
 }
 .about__name {
   font-size: 64px;
@@ -103,6 +112,78 @@ img {
 }
 .about__sub {
   padding-left: 40px;
+}
+
+.section-left {
+  width: 300px;
+}
+.section-right {
+  margin: 0;
+  width: 600px;
+}
+
+.education {
+  padding: 20px 0 35px 35px;
+  color: #fff;
+  background-color: #2c2c2c;
+}
+
+.expertise {
+  padding: 10px 0 20px 35px;
+  background-color: #e7e7e7;
+}
+.expertise__skill-list {
+  padding: 0;
+  margin: 0;
+}
+.expertise__skill-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.expertise__skill-item:nth-child(1) .expertise__bar {
+  width: 75%;
+}
+.expertise__skill-item:nth-child(2) .expertise__bar {
+  width: 55%;
+}
+.expertise__skill-item:nth-child(3) .expertise__bar {
+  width: 35%;
+}
+.expertise__skill-item:nth-child(4) .expertise__bar {
+  width: 30%;
+}
+.expertise__skill-item:nth-child(5) .expertise__bar {
+  width: 55%;
+}
+.expertise__skill-item:nth-child(6) .expertise__bar {
+  width: 20%;
+}
+.expertise__text {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+.expertise__scale {
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 5px;
+  width: 160px;
+  background-color: #2c2c2c;
+}
+.expertise__bar {
+  width: 60%;
+  height: 5px;
+  background-color: #f3b900;
+}
+
+.experience {
+  margin-left: 40px;
+}
+.experience__work {
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
