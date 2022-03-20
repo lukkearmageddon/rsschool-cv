@@ -94,31 +94,56 @@ img {
   width: 600px;
 }
 .about__name {
-  font-size: 64px;
-  line-height: 60px;
-  margin: 50px 40px 10px 40px;
+  font-size: 54px;
+  line-height: 50px;
+  margin: 50px 40px 10px 55px;
 }
 .about__jobtitle {
   width: 188px;
-  margin: 10px 40px 10px 40px;
+  margin: 10px 40px 10px 55px;
   padding: 5px 10px;
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f3b900;
 }
 .about__title {
+  position: relative;
   text-transform: uppercase;
-  padding: 10px 0 10px 40px;
+  padding: 10px 0 10px 55px;
+}
+.about__title::before {
+  position: absolute;
+  content: "";
+  left: 55px;
+  bottom: -4px;
+  width: 30px;
+  height: 3px;
+  background-color: #f3b900;
 }
 .about__sub {
-  padding-left: 40px;
+  padding-left: 55px;
+  margin-bottom: 0;
+}
+
+.h2 {
+  position: relative;
+  margin-bottom: 50px;
+}
+.h2::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -20px;
+  width: 30px;
+  height: 3px;
+  background-color: #f3b900;
 }
 
 .section-left {
   width: 300px;
 }
 .section-right {
-  margin: 0;
+  margin: 17px 0 0 0;
   width: 600px;
 }
 
@@ -146,19 +171,22 @@ img {
   width: 75%;
 }
 .expertise__skill-item:nth-child(2) .expertise__bar {
-  width: 55%;
+  width: 60%;
 }
 .expertise__skill-item:nth-child(3) .expertise__bar {
-  width: 35%;
+  width: 50%;
 }
 .expertise__skill-item:nth-child(4) .expertise__bar {
-  width: 30%;
-}
-.expertise__skill-item:nth-child(5) .expertise__bar {
   width: 55%;
 }
+.expertise__skill-item:nth-child(5) .expertise__bar {
+  width: 45%;
+}
 .expertise__skill-item:nth-child(6) .expertise__bar {
-  width: 20%;
+  width: 40%;
+}
+.expertise__skill-item:nth-child(7) .expertise__bar {
+  width: 50%;
 }
 .expertise__text {
   font-size: 16px;
@@ -168,9 +196,9 @@ img {
 }
 .expertise__scale {
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 30px;
   height: 5px;
-  width: 160px;
+  width: 140px;
   background-color: #2c2c2c;
 }
 .expertise__bar {
@@ -180,10 +208,146 @@ img {
 }
 
 .experience {
-  margin-left: 40px;
+  margin-left: 55px;
 }
 .experience__work {
   margin-bottom: 50px;
+}
+.experience__job-title {
+  margin-bottom: 5px;
+}
+.experience__job-desc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.experience__job-date {
+  font-weight: 700;
+  padding: 5px 10px;
+  background-color: #f3b900;
+  margin: 5px 0;
+}
+.experience__job-company {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.experience__job-text {
+  margin: 10px 0;
+}
+
+.reference {
+  margin-left: 55px;
+}
+.reference__work {
+  margin-bottom: 40px;
+}
+.reference__job-desc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reference__job-date {
+  font-weight: 700;
+  padding: 5px 10px;
+  background-color: #f3b900;
+}
+.reference__job-company {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.reference__job-text {
+  margin: 10px 0;
+}
+
+.section-footer {
+  margin: 0;
+  padding: 35px 0 20px 0;
+  background-color: #e7e7e7;
+}
+
+.contact-list {
+  position: relative;
+  margin-left: 110px;
+}
+.contact-list__item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.contact-list__item::before {
+  position: absolute;
+  content: "";
+  left: -75px;
+  top: 0;
+  width: 50px;
+  height: 75px;
+  background-color: #f3b900;
+}
+.contact-list__item:nth-child(1) .contact-name::before {
+  position: absolute;
+  content: "";
+  left: -62px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/png/mail.png");
+  background-repeat: no-repeat;
+}
+.contact-list__item:nth-child(2) .contact-name::before {
+  position: absolute;
+  content: "";
+  left: -63px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/png/telegram.png");
+  background-repeat: no-repeat;
+}
+.contact-list__item:nth-child(3) .contact-name::before {
+  position: absolute;
+  content: "";
+  left: -62px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/png/discord.png");
+  background-repeat: no-repeat;
+}
+.contact-list__item:nth-child(4) .contact-name::before {
+  position: absolute;
+  content: "";
+  left: -62px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/png/location.png");
+  background-repeat: no-repeat;
+}
+.contact-name {
+  margin: 0;
+}
+.contact-name__item {
+  margin: 3px 0;
+}
+
+a {
+  color: #2c2c2c;
+  transition: all ease-in 0.2s;
+}
+a:active {
+  color: #f3b900;
+}
+a:hover {
+  color: #2c2c2c;
+  background-color: #ffc616;
+}
+a:visited {
+  color: #bd4200;
+}
+a:visited:hover {
+  color: #2c2c2c;
 }
 
 /*# sourceMappingURL=style.css.map */
