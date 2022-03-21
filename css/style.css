@@ -209,6 +209,7 @@ img {
 
 .experience {
   margin-left: 55px;
+  margin-bottom: 50px;
 }
 .experience__work {
   margin-bottom: 50px;
@@ -237,31 +238,20 @@ img {
   margin: 10px 0;
 }
 
-.reference {
+.courses {
   margin-left: 55px;
+  margin-bottom: 50px;
 }
-.reference__work {
-  margin-bottom: 40px;
-}
-.reference__job-desc {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.reference__job-date {
-  font-weight: 700;
-  padding: 5px 10px;
-  background-color: #f3b900;
-}
-.reference__job-company {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 500;
-}
-.reference__job-text {
+.courses__text {
   margin: 10px 0;
 }
-
+.languages {
+  margin-left: 55px;
+  margin-bottom: 50px;
+}
+.languages__text {
+  margin: 10px 0;
+}
 .section-footer {
   margin: 0;
   padding: 35px 0 20px 0;

@@ -237,6 +237,7 @@ img {
 
 .experience {
   margin-left: 55px;
+  margin-bottom: 50px;
 
   &__work {
     margin-bottom: 50px;
@@ -246,6 +247,7 @@ img {
     &-title {
       margin-bottom: 5px;
     }
+
     &-desc {
       display: flex;
       align-items: center;
@@ -279,42 +281,43 @@ img {
   }
 }
 
-.reference {
+.courses {
   margin-left: 55px;
+  margin-bottom: 50px;
 
-  &__work {
-    margin-bottom: 40px;
+  &__list {
   }
 
-  &__job {
-    &-desc {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+  &__item {
 
-    &-date {
-      font-weight: 700;
-      padding: 5px 10px;
-      background-color: #f3b900;
-    }
+  }
 
-    &-company {
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 500;
-    }
+  &__text {
+    margin: 10px 0;
+  }
 
-    &-list {
-    }
+  &__link {
 
-    &-item {
+  }
+}
 
-    }
+.languages {
+  margin-left: 55px;
+  margin-bottom: 50px;
 
-    &-text {
-      margin: 10px 0;
-    }
+  &__list {
+  }
+
+  &__item {
+
+  }
+
+  &__text {
+    margin: 10px 0;
+  }
+
+  &__link {
+
   }
 }
 
@@ -409,6 +412,7 @@ img {
 a {
   color: #2c2c2c;
   transition: all ease-in 0.2s;
+
   &:active {
     color: #f3b900;
   }
@@ -420,6 +424,7 @@ a {
 
   &:visited {
     color: #bd4200;
+
     &:hover {
       color: #2c2c2c;
     }
