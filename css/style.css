@@ -37,7 +37,7 @@ img {
 
 .container {
   width: 930px;
-  padding: 0 15px;
+  padding: 50px 15px;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.main .container {
+.main__inner {
   display: flex;
 }
 
@@ -282,7 +282,7 @@ img {
   top: 10px;
   width: 30px;
   height: 30px;
-  background-image: url("../img/png/mail.png");
+  background-image: url("../assets/png/mail.png");
   background-repeat: no-repeat;
 }
 .contact-list__item:nth-child(2) .contact-name::before {
@@ -292,7 +292,7 @@ img {
   top: 10px;
   width: 30px;
   height: 30px;
-  background-image: url("../img/png/telegram.png");
+  background-image: url("../assets/png/telegram.png");
   background-repeat: no-repeat;
 }
 .contact-list__item:nth-child(3) .contact-name::before {
@@ -302,7 +302,7 @@ img {
   top: 10px;
   width: 30px;
   height: 30px;
-  background-image: url("../img/png/discord.png");
+  background-image: url("../assets/png/discord.png");
   background-repeat: no-repeat;
 }
 .contact-list__item:nth-child(4) .contact-name::before {
@@ -312,7 +312,7 @@ img {
   top: 10px;
   width: 30px;
   height: 30px;
-  background-image: url("../img/png/location.png");
+  background-image: url("../assets/png/location.png");
   background-repeat: no-repeat;
 }
 .contact-name {
@@ -320,6 +320,24 @@ img {
 }
 .contact-name__item {
   margin: 3px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15px;
+  padding: 20px 15px 20px 15px;
+  background-color: #2c2c2c;
+}
+.footer .school-link {
+  padding: 5px;
+}
+.footer p {
+  color: #fff;
+}
+.footer .dev-link {
+  padding: 5px;
 }
 
 a {
