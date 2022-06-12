@@ -154,7 +154,7 @@ img {
 }
 
 .expertise {
-  padding: 10px 0 20px 35px;
+  padding: 25px 0 20px 35px;
   background-color: #e7e7e7;
 }
 .expertise__skill-list {
@@ -209,7 +209,7 @@ img {
 
 .experience {
   margin-left: 55px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .experience__work {
   margin-bottom: 50px;
@@ -240,21 +240,30 @@ img {
 
 .courses {
   margin-left: 55px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .courses__text {
   margin: 10px 0;
 }
 .languages {
   margin-left: 55px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .languages__text {
   margin: 10px 0;
 }
+.code-example {
+  margin-left: 55px;
+}
+.code-example pre {
+  margin-top: -25px;
+  margin-left: -175px;
+  margin-bottom: 0;
+}
+
 .section-footer {
   margin: 0;
-  padding: 35px 0 20px 0;
+  padding: 41px 0 20px 0;
   background-color: #e7e7e7;
 }
 
@@ -276,7 +285,7 @@ img {
   left: -75px;
   top: 0;
   width: 50px;
-  height: 75px;
+  height: 74px;
   background-color: #f3b900;
 }
 .contact-list__item:nth-child(1) .contact-name::before {
