@@ -31,8 +31,7 @@
                 </p>
                 <p class="about__sub">
                     And I clearly understood where I was going next.
-                    Now I am studying frontend development already on the course "RS", after which I expect to find a
-                    job in this profession.
+                    Now I am studying frontend development already on the course "RS".
                 </p>
             </div>
         </div>
@@ -44,11 +43,14 @@
                 <div class="education">
                     <h2 class="h2">Education</h2>
                     <h3 class="education__job-title">BGAS, Minsk</h3>
-                    <p class="education__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis,
-                        velit!</p>
+                    <p class="education__text">
+                        Faculty of Telecommunications<br>
+                        Telecommunications Technician<br>
+                        2011 - 2015
+                    </p>
                 </div>
                 <div class="expertise">
-                    <h2 class="h2">Skills:</h2>
+                    <h2 class="h2 skills">Skills:</h2>
                     <ul class="expertise__skill-list">
                         <li class="expertise__skill-item">
                             <p class="expertise__text">HTML5</p>
@@ -151,13 +153,10 @@
                                 <p class="experience__job-text">Implementation of help-desk systems</p>
                             </li>
                             <li class="experience__job-item">
-                                <p class="experience__job-text">User Support</p>
+                                <p class="experience__job-text">User Support/reviews in App store and play market</p>
                             </li>
                             <li class="experience__job-item">
                                 <p class="experience__job-text">Writing FAQ</p>
-                            </li>
-                            <li class="experience__job-item">
-                                <p class="experience__job-text">Working with reviews in App store and play market</p>
                             </li>
                         </ul>
                     </div>
@@ -213,12 +212,25 @@
                                 Polish: B1
                             </p>
                         </li>
-                        <li class="languages__item">
-                            <p class="languages__text">
-                                Belorussian: A2
-                            </p>
-                        </li>
                     </ul>
+                </div>
+                <div class="code-example">
+                    <h2 class="h2">
+                        Code Example:
+                    </h2>
+                    <pre><code>
+                    function add(num1, num2) {
+                        let result = [];
+                        num1 = num1.toString().split('').reverse()
+                        num2 = num2.toString().split('').reverse()
+                        let max = Math.max(num1.length, num2.length)
+                            for (let i = max - 1; i >= 0; i--) {
+                                result.push((parseInt(num1[i]) || 0) +
+                                (parseInt(num2[i]) || 0))
+                            }
+                        return parseInt(result.join(''))
+                    }
+                    </code></pre>
                 </div>
             </section>
         </div>
