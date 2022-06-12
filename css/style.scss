@@ -327,8 +327,12 @@ img {
   background-color: #e7e7e7;
 }
 
+.contacts {
+  margin-left: 35px;
+}
+
 .contact {
-  &-list {
+    &-list {
     position: relative;
     margin-left: 110px;
   }
