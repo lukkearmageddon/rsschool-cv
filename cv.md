@@ -30,3 +30,23 @@ ___
 ```javascript
 const ArrowFunc = (arr) => arr.map( i => String.fromCharCode(i)).join('')
 ```
+___
+### Courses:
+- [Hyperskill (JetBrain)](https://hyperskill.org/profile/43717729)
+- [HTML Academy: HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)
+- [HTML Academy: Adaptive layout and automation](https://htmlacademy.ru/intensive/adaptive)
+- JS on the [learnjavascript](https://learnjavascript.ru)
+
+___
+### Projects:
+- [Game – pure js: 2048](https://rolling-scopes-school.github.io/lukkearmageddon-JSFEPRESCHOOL/2048/);
+- [UnSplash API – image search](https://rolling-scopes-school.github.io/lukkearmageddon-JSFEPRESCHOOL/image-gallery/);
+- [Audio-player](https://rolling-scopes-school.github.io/lukkearmageddon-JSFEPRESCHOOL/js30-02/);
+- [CaseConvertor](https://sensational-sundae-64158b.netlify.app/);
+- [To-Do list :D](https://lukkearmageddon.github.io/to-do-list/);
+___
+### Languages:
+- Russian: Native;
+- Belorussian: Intermediate;
+- English: A2;
+- Polish: B1;
