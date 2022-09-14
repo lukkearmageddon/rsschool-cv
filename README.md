@@ -1,1 +1,1 @@
-# Project [html-css-git](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/html-css-git.md)
+https://lukkearmageddon.github.io/rsschool-cv/cv
